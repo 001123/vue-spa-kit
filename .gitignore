@@ -28,5 +28,6 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-yarn.lock
+# Should I need to put yarn.lock in .gitignore? https://github.com/yarnpkg/yarn/issues/1583
+# yarn.lock
 package-lock.json

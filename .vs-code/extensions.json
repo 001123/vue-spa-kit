@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "p-de-jong.vscode-html-scss",
+    "gruntfuggly.todo-tree",
+    "octref.vetur",
+    "dariofuzinato.vue-peek",
+    "sdras.vue-vscode-snippets",
+    "editorconfig.editorconfig"
+  ]
+}
