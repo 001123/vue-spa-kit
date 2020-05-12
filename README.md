@@ -39,24 +39,16 @@ Utils CodyFramework (Not include cody reset) [https://codyhouse.co/ds/docs/frame
 
 ### Library
 
-[Vue-Router](https://router.vuejs.org/)
-[VueX](https://vuex.vuejs.org/)
-[Vue-i18n](https://www.npmjs.com/package/vue-i18n)
-
-### CDN
-
-Check at:
-
-```
-public/index.html
-```
-
 Styles:
 
 - [normalize.css](https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css) - [docs](https://github.com/necolas/normalize.css)
 - [normalize.css](https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css) - [docs](https://github.com/necolas/normalize.css)
 
 Scripts:
+
+- [Vue-Router](https://router.vuejs.org/)
+- [VueX](https://vuex.vuejs.org/)
+- [Vue-i18n](https://www.npmjs.com/package/vue-i18n)
 
 - [jquery](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js) - [docs](https://api.jquery.com/)
 - [lodash](https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js) - [docs](https://lodash.com/docs/4.17.15)
@@ -75,3 +67,7 @@ Check at `.vs-code/extensions.json`.
 - vetur
 - vue-peek
 - vue-vscode-snippets
+
+### Others link
+
+(Awesome vue)[https://github.com/vuejs/awesome-vue]

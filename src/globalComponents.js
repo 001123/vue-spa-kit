@@ -2,8 +2,6 @@ import Vue from 'vue';
 import upperFirst from 'lodash/upperFirst';
 import camelCase from 'lodash/camelCase';
 
-console.log('random', _.random('weee'));
-
 const requireComponent = require.context(
   // The relative path of the components folder
   './components/global',
