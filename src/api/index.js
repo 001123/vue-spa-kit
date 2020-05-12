@@ -1,18 +1,20 @@
+import axios from 'axios';
+
 import beforeRequestConfig from './beforeRequestConfig';
 import beforeRequestError from './beforeRequestError';
 import afterResponseResolve from './afterRequestResolve';
 import afterResponseError from './afterRequestError';
 
-const api = axios.create({
-  baseURL: 'https://jsonplaceholder.typicode.com/',
+const Api = axios.create({
+  baseURL: 'https://kd-mock-data.glitch.me/mock',
   timeout: 10000,
   // headers: { 'X-Custom-Header': 'foobar' },
 });
 
 // Add a request interceptor
-api.interceptors.request.use(beforeRequestConfig, beforeRequestError);
+Api.interceptors.request.use(beforeRequestConfig, beforeRequestError);
 
 // Add a response interceptor
-api.interceptors.response.use(afterResponseResolve, afterResponseError);
+Api.interceptors.response.use(afterResponseResolve, afterResponseError);
 
-export default api;
+export default Api;

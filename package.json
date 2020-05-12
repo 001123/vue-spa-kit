@@ -52,7 +52,8 @@
     "globals": {
       "jQuery": "writable",
       "$": "writable",
-      "axios": "writable"
+      "axios": "writable",
+      "Axios": "writable"
     },
     "extends": [
       "plugin:vue/essential",

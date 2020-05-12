@@ -1,5 +1,6 @@
+/* eslint-disable no-param-reassign */
 /**
- *
+ *  TODO: Add language params
  * @param {*} config
  */
 export default function beforeRequestConfig(config) {

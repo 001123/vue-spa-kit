@@ -92,7 +92,7 @@
 </template>
 
 <script>
-import api from '@/api';
+import Api from '@/api';
 import { IS_DEV } from '@/utils';
 
 export default {
@@ -103,14 +103,16 @@ export default {
   data() {
     return {
       IS_DEV,
+      apiSource: axios.CancelToken.source(),
     };
   },
   mounted() {
     console.log('IS_DEV mode', this.IS_DEV);
-
-    api.get('todoasdas').then((res) => {
+    Api.get('user').then((res) => {
       console.log(res);
     });
+  },
+  beforeDestroy() {
   },
 };
 </script>

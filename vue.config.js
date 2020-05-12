@@ -10,6 +10,7 @@ const listWebpackPlugin = [
     $: 'jquery',
     jQuery: 'jquery',
     axios: 'axios',
+    Axios: 'axios',
   }),
   new LodashModuleReplacementPlugin(),
   new MomentLocalesPlugin({
