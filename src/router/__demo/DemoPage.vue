@@ -7,16 +7,6 @@
       <h1>FullCalendar</h1>
       <div id="calendar"></div>
     </div>
-
-    <div>
-      <h1>Tree Select</h1>
-      <div>
-      </div>
-      <div>
-        <pre>{{ categorySelect }}</pre>
-        <pre>{{ categoryTreeOptions }}</pre>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -34,20 +24,10 @@ export default {
   data() {
     return {
       test: 'ok',
-      categorySelect: null,
-      categoryTreeOptions: [],
-      normalizer(node) {
-        return {
-          id: node.id,
-          label: node.title,
-          children: node.children,
-        };
-      },
     };
   },
   mounted() {
     const calendarEl = document.getElementById('calendar');
-
     const calendar = new Calendar(calendarEl, {
       header: { center: 'dayGridMonth, timeGridWeek, timeGridDay' },
       plugins: [dayGridPlugin, timeGridPlugin, interactionPlugin],
@@ -55,11 +35,6 @@ export default {
     });
 
     calendar.render();
-
-    Api.get('https://kd-mock-data.glitch.me/mock/category').then((res) => {
-      console.log(`mounted -> res`, res);
-      this.categoryTreeOptions = res.data;
-    });
   },
   beforeDestroy() {},
 };

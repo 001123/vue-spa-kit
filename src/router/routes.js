@@ -1,14 +1,13 @@
 import { ROUTER } from '@/constants';
-import LoginPage from './_login/LoginPage.vue';
 
 const routes = [
-  // Login
-  {
-    path: ROUTER.LOGIN.path,
-    name: ROUTER.LOGIN.name,
-    component: LoginPage,
-  },
   // Demo
+  // Root router first
+  {
+    path: ROUTER.GUIDE.path,
+    name: ROUTER.GUIDE.name,
+    component: () => import(/* webpackChunkName: "GuidePage" */ './__demo/GuidePage.vue'),
+  },
   {
     path: ROUTER.DEMO.path,
     name: ROUTER.DEMO.name,

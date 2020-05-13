@@ -3,9 +3,9 @@
 export const STATUS = 'ok';
 
 export const ROUTER = {
-  LOGIN: {
+  GUIDE: {
     path: '/',
-    name: 'Login',
+    name: 'Guide',
   },
   DEMO: {
     path: '/demo',
