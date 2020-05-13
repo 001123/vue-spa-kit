@@ -1,6 +1,7 @@
 <template>
   <div class="margin-bottom-xxl">
     <h1>Wellcome to SPA-KIT</h1>
+    <h3>Tải về: <a href="https://github.com/001123/vue-spa-kit/releases" target="_blank">https://github.com/001123/vue-spa-kit/releases</a></h3>
     <h2>Hướng dẫn</h2>
     <blockquote>Đọc kỹ hướng dẫn sử dụng, README.MD ở các thư mục trước khi dùng</blockquote>
     <div>

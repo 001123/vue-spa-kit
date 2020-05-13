@@ -2,6 +2,8 @@
 
 ## Project setup
 
+Link Demo: [http://vue-spa-kit.surge.sh/](http://vue-spa-kit.surge.sh/)
+
 ```
 yarn install
 ```
