@@ -1,5 +1,6 @@
 /* eslint-disable no-param-reassign */
 import store from '@/store';
+import app from '@/main';
 
 /**
  *  TODO: Add language params
@@ -21,6 +22,10 @@ export default function beforeRequestConfig(config) {
   // TODO: For hide loading
   if (config.hideLoading) {
     //
+  } else {
+    //
+    app.$screenloading(true);
   }
+
   return config;
 }

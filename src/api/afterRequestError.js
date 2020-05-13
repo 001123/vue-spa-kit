@@ -1,9 +1,12 @@
 import axios from 'axios';
+import app from '@/main';
 /**
  * https://github.com/axios/axios#cancellation
  * @param {*} error
  */
 export default function afterResponseError(error) {
+  app.$screenloading(false);
+
   // Any status codes that falls outside the range of 2xx cause this function to trigger
   // Do something with response error
   if (axios.isCancel(error)) {
