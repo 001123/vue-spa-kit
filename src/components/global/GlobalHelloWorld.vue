@@ -103,7 +103,6 @@ export default {
   data() {
     return {
       IS_DEV,
-      apiSource: axios.CancelToken.source(),
     };
   },
   mounted() {
