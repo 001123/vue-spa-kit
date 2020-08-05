@@ -77,6 +77,10 @@ Check at `.vs-code/extensions.json`.
 
 ### Others link
 
+✨ Recommend library:
+- https://jqueryvalidation.org/documentation/ 
+- https://intl-tel-input.com/ (Input and utils international phone)
+
 (Awesome vue)[https://github.com/vuejs/awesome-vue]
 
 ### Folder source structure
