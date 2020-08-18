@@ -1,10 +1,12 @@
+:root {
+  --font-primary: 'Open Sans', sans-serif;
+  font-family: var(--font-primary);
+  font-display: fallback;
+}
+
 [v-cloak] {
   display: none;
 }
 a {
   text-decoration: none;
-}
-:root {
-  --font-primary: 'Open Sans', sans-serif;
-  font-display: fallback;
 }

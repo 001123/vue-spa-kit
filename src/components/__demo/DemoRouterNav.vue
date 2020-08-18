@@ -4,7 +4,7 @@
       <span v-for="(r) in ROUTER" :key="r.name">
         &sung;
         <router-link :to="r.path">
-          <p>{{ r.name }}</p>
+          <span>{{ r.name }}</span>
         </router-link>
       </span>
     </div>
@@ -30,10 +30,7 @@ export default {
   left: 0;
   width: 100%;
   z-index: 99999;
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: white;
+  padding: 5px 15px;
 }
 </style>

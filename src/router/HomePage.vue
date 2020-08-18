@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>LOGIN PAGE!</h1>
+    <h1>HomePage</h1>
   </div>
 </template>
 

@@ -3,8 +3,12 @@
 export const STATUS = 'ok';
 
 export const ROUTER = {
-  GUIDE: {
+  HOME: {
     path: '/',
+    name: 'Home',
+  },
+  GUIDE: {
+    path: '/guide',
     name: 'Guide',
   },
   DEMO: {
