@@ -40,7 +40,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Library
 
-
 Scripts:
 
 - [Vue-Router](https://router.vuejs.org/)
@@ -55,7 +54,7 @@ Scripts:
 - [moment](https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.25.3/moment.min.js) - [docs](https://momentjs.com/docs/)
 - [axios](https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js) - [docs](https://github.com/axios/axios)
 
-- [FullCalendar](https://fullcalendar.io/docs/getting-started)
+- [Vuelidate](https://vuelidate.js.org/)
 
 ### VS Extension recommend
 
@@ -73,7 +72,8 @@ Check at `.vs-code/extensions.json`.
 ### Others link
 
 ✨ Recommend library:
-- https://jqueryvalidation.org/documentation/ 
+
+- https://jqueryvalidation.org/documentation/
 - https://intl-tel-input.com/ (Input and utils international phone)
 
 (Awesome vue)[https://github.com/vuejs/awesome-vue]

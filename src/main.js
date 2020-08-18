@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueI18n from 'vue-i18n';
 import VueHead from 'vue-head';
-
+import Vuelidate from 'vuelidate'
 import ScreenLoading from './library/screen-loading';
 
 import App from './App.vue';
@@ -16,6 +16,7 @@ import './scss/App.scss';
 Vue.config.productionTip = false;
 Vue.use(VueI18n);
 Vue.use(VueHead);
+Vue.use(Vuelidate)
 
 // Custom plugin
 Vue.use(ScreenLoading);
