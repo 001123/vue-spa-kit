@@ -7,7 +7,7 @@ import ScreenLoading from './library/screen-loading';
 import App from './App.vue';
 
 import './registerServiceWorker';
-import router from './router';
+import router from './router/_router';
 import store from './store';
 
 import './globalComponents';

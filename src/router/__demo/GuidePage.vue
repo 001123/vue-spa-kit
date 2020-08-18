@@ -1,7 +1,10 @@
 <template>
   <div class="margin-bottom-xxl">
     <h1>Wellcome to SPA-KIT</h1>
-    <h3>Tải về: <a href="https://github.com/001123/vue-spa-kit/releases" target="_blank">https://github.com/001123/vue-spa-kit/releases</a></h3>
+    <h3>
+      Tải về:
+      <a href="https://github.com/001123/vue-spa-kit/releases" target="_blank">https://github.com/001123/vue-spa-kit/releases</a>
+    </h3>
     <h2>Hướng dẫn</h2>
     <blockquote>Đọc kỹ hướng dẫn sử dụng, README.MD ở các thư mục trước khi dùng</blockquote>
     <div>
@@ -33,8 +36,8 @@
         ├── main.js <mark> Entry của app, config thêm các thư viện. </mark>
         ├── registerServiceWorker.js <mark>Dùng để khai báo service worker </mark>
         ├── router <mark> Thư mục quản lý router </mark>
-        |  ├── index.js <mark> Khai báo, thêm các sự kiện cho router</mark>
-        |  ├── routes.js <mark> Danh sách các routes hiện có của app. * path, name NÊN import từ <b>constants.js</b> </mark>
+        |  ├── _router.js <mark> Khai báo, thêm các sự kiện cho router</mark>
+        |  ├── _routes.js <mark> Danh sách các routes hiện có của app. * path, name NÊN import từ <b>constants.js</b> </mark>
         |  └── demo <mark> Page để demo, test các thư viện </mark>
         ├── scss
         |  ├── App.scss <mark>Import các thư viện</mark>
@@ -54,49 +57,17 @@
       <h2>Các features kit đã tạo</h2>
       <div>
         <ul>
-          <li>
-            Global components sử dụng Component tại các page mà không cần import.
-          </li>
-          <li>
-            Router lazyload giảm kích thước bundle
-          </li>
-          <li>
-            Cấu trúc thư mục để phát triển, mở rộng app.
-          </li>
-          <li>
-            Loading mỗi khi request được gọi (Axios interceptor).
-          </li>
-          <li>
-            Config ESLINT, Pretier, babels
-          </li>
+          <li>Global components sử dụng Component tại các page mà không cần import.</li>
+          <li>Router lazyload giảm kích thước bundle</li>
+          <li>Cấu trúc thư mục để phát triển, mở rộng app.</li>
+          <li>Loading mỗi khi request được gọi (Axios interceptor).</li>
+          <li>Config ESLINT, Pretier, babels</li>
         </ul>
       </div>
 
       <h2>Styling</h2>
       <div>
-        <p>
-          Sử dụng bootstrap v4
-        </p>
-      </div>
-
-      <h2>Script styleguide</h2>
-      <div>
-        <p>
-          Sử dụng
-          <b>ESLINT-Airbnb</b> để lint code, tắt một số rule không cần thiết (kiểm tra tại file
-          <i>package.json</i> field "eslint" )
-        </p>
-        <p>
-          Sử dụng
-          <b>Pretier</b> để format code (config trong file
-          <i>package.json</i> field "prettier")
-        </p>
-        <p>
-          * Lưu ý: ESLINT sẽ chạy khi save. Nếu có <b>lỗi</b> hãy BÌNH TĨNH fix lỗi, trường hợp cần muốn bypass nhanh để test thì thêm vào đầu dòng để disable lint. (Hạn chế)
-        </p>
-        <pre>
-          /* eslint-disable */
-        </pre>
+        <p>Mặc định của trình duyệt, checkout các nhánh để sử dụng các thư viện khác như bootstrap, vuetify, buefy, ...</p>
       </div>
 
       <h2>Webpack</h2>
@@ -106,20 +77,12 @@
           <b>BundleAnalyzerPlugin</b> để xem thống kê về kích thức app khi build.
         </p>
         <p>
-          Tối ưu size của lodash và moment bằng
-          <b>LodashModuleReplacementPlugin</b>,
-          <b>MomentLocalesPlugin</b>
-        </p>
-        <p>
           Chạy lệnh
           <b>yarn stats</b> để xem phân tích của app sau khi build
         </p>
         <p>
           Để thêm các config khác tham khảo document của vue cli tại
-          <a
-            href="https://cli.vuejs.org/guide/webpack.html"
-            target="_blank"
-          >đây</a>
+          <a href="https://cli.vuejs.org/guide/webpack.html" target="_blank">đây</a>
         </p>
 
         <p>* Lưu ý khi import nên dùng alias thay vì absolute path</p>
@@ -145,14 +108,9 @@
         </p>
         <p>
           Tìm hiểu thêm về cách tạo gợi ý extensions cho visual code tại
-          <a
-            href="https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions"
-            target="_blank"
-          >đây</a>.
+          <a href="https://code.visualstudio.com/docs/editor/extension-gallery#_workspace-recommended-extensions" target="_blank">đây</a>.
         </p>
       </div>
-
-
     </div>
   </div>
 </template>
