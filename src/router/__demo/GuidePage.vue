@@ -38,7 +38,6 @@
         |  └── demo <mark> Page để demo, test các thư viện </mark>
         ├── scss
         |  ├── App.scss <mark>Import các thư viện</mark>
-        |  ├── base.scss <mark>Các file base từ https://codyhouse.co/ds/docs/framework trừ <b>reset</b></mark>
         |  ├── config.scss <mark>Config các css variables của base, overwrite css các thư viện</mark>
         |  └── variables.scss <mark>Các biến có trong design</mark>
         ├── store <mark>Quản lý state cho app bằng VueX</mark>
@@ -68,7 +67,7 @@
             Loading mỗi khi request được gọi (Axios interceptor).
           </li>
           <li>
-            Config ESLINT, Pretier, babels, element-ui
+            Config ESLINT, Pretier, babels
           </li>
         </ul>
       </div>
@@ -76,27 +75,8 @@
       <h2>Styling</h2>
       <div>
         <p>
-          Sử dụng
-          <b>normalize.css</b> để reset lại css giữa các trình duyệt. không làm mất default style của các html tag
+          Sử dụng bootstrap v4
         </p>
-        <p>
-          Sử dụng
-          <b>codyhouse css framework</b> cho các css utils
-        </p>
-        <p>Ưu điểm:</p>
-        <ul>
-          <li>CSS variables: configs được ngay trên dev tool của browser hoặc qua Javascript</li>
-          <li>Cú pháp để đọc, documents tốt, hỗ trợ responsive</li>
-          <li>Có sẵn extensions trên visual code để gợi ý class khi code trên html, vue</li>
-        </ul>
-        <p>Hạn chế:</p>
-        <ul>
-          <li>Cần thời gian để apply các utils, đọc kĩ documents</li>
-          <li>
-            reset css chưa tốt, giải pháp là thay thế bằng
-            <i>normalize.css</i>
-          </li>
-        </ul>
       </div>
 
       <h2>Script styleguide</h2>

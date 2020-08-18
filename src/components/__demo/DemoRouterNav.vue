@@ -4,7 +4,7 @@
       <span v-for="(r) in ROUTER" :key="r.name">
         &sung;
         <router-link :to="r.path">
-          <el-button size="small">{{ r.name }}</el-button>
+          <p>{{ r.name }}</p>
         </router-link>
       </span>
     </div>

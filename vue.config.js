@@ -2,7 +2,6 @@
 // vue.config.js
 const webpack = require('webpack');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
-const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
 const MomentLocalesPlugin = require('moment-locales-webpack-plugin');
 
 const listWebpackPlugin = [
@@ -12,7 +11,6 @@ const listWebpackPlugin = [
     axios: 'axios',
     Axios: 'axios',
   }),
-  new LodashModuleReplacementPlugin(),
   new MomentLocalesPlugin({
     localesToKeep: ['es-us', 'vi'],
   }),

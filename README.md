@@ -36,15 +36,10 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### CSS
 
-Reboot normalize.css: [https://cdnjs.com/libraries/normalize](https://cdnjs.com/libraries/normalize)
-Utils CodyFramework (Not include cody reset) [https://codyhouse.co/ds/docs/framework](https://codyhouse.co/ds/docs/framework)
+[https://bootstrap-vue.org/docs/components/media](https://bootstrap-vue.org/docs/components/media)
 
 ### Library
 
-Styles:
-
-- [normalize.css](https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css) - [docs](https://github.com/necolas/normalize.css)
-- [normalize.css](https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css) - [docs](https://github.com/necolas/normalize.css)
 
 Scripts:
 
