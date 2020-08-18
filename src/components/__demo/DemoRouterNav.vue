@@ -1,5 +1,5 @@
 <template>
-  <div class="hb-debug-nav-bar">
+  <nav class="hb-debug-nav-bar">
     <div class="text-center padding-xxs">
       <span v-for="(r) in ROUTER" :key="r.name">
         &sung;
@@ -8,7 +8,7 @@
         </router-link>
       </span>
     </div>
-  </div>
+  </nav>
 </template>
 
 <script>
@@ -27,10 +27,20 @@ export default {
 .hb-debug-nav-bar {
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 0;
   width: 100%;
   z-index: 99999;
   background: white;
-  padding: 5px 15px;
+  text-align: right;
+  padding: 10px;
+  font-size: 14px;
+  color: black;
+  a {
+    color: #f44336;
+    font-weight: bold;
+    &:hover {
+      color: #ff7961;
+    }
+  }
 }
 </style>
